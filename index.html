@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>replit</title>
+  <link rel="stylesheet" href="page.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <scrpt src="https://code.jquery.com/jquery-3.4.1.min.js" </scrpt>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arima:wght@300&family=Bebas+Neue&family=Homemade+Apple&family=Koulen&family=Montserrat:wght@300&family=Playfair+Display&family=Staatliches&display=swap');
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <!--     <img class="menu-icon"src="https://img.icons8.com/ios-glyphs/30/000000/menu--v1.png"onclick="togglemenu()"> -->
+  <h1 class="logo"> Eco-Closet </h1>
+  <nav>
+    <div class="navbar">
+      <ul class="menu">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About-us">About Us</a></li>
+        <li><a href="#Impact">Impact</a></li>
+        <li><a href="#Our-quiz">Our Quiz</a></li>
+        <li><a href="#styles">Styles</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="Home">
+    <div class="homepageImageContainer">
+      <img class="centerImage"
+        src="https://media.discordapp.net/attachments/867313821219160075/1004496530243321876/IMG_4071.jpg">
+      <div class="textBox">
+        <div class="quizTitle">
+          <h1 class="quizHeading"> Featured: Find Your Style Quiz </h1>
+        </div>
+        <div class="quizDescription">
+          <p> With the EcoCloset Style Persona Quiz, you can find out a suitable fashion style for you in just 1-2
+            minutes. Furthermore, we also provide some sustainable brand names in the results page whose pieces are
+            suitable to your style persona! </p>
+        </div>
+        <div class="buttonContainer">
+          <button class=buttonText><a href="https://Quiz-Template-Scholars-1.emilyli1101.repl.co">Take Quiz
+              Now!</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="reveal" id="About-us">
+    <div class="aboutUsContainer" id="aboutUs">
+      <h1 class="aboutUsTitle"> About Us </h1>
+      <div class=aboutUsDescriptionContainer>
+        <p class="whiteParagraphText"> Eco-Closet is a platform dedicated to advocating for sustainable fashion, raising
+          awareness about the negative impact of fast fashion—
+          both environmentally and socially, and helping people transition from buying fast fashion to making more
+          sustainable purchases. The main feature of Eco-Closet, “Find Your Style Quiz,” is an assessment based on your
+          current wardrobe preferences that helps you find clothing styles you should try. In addition, we also offer
+          sustainable brand names with a style that most matches your quiz result. </p>
+
+        <p class="whiteParagraphText2">We also have a “Style Moodboard” that offers visual representation of
+          outfit/style ideas with persona labels underneath each image to better help you choose your preferred look.
+          The board allows you to view hundreds of looks with the shuffle button. However, if you pin an image to the
+          board, that image will stay, while all the other images will change into different ones. We also provide
+          resources and news about the environmental impact of the fashion industry, and ways that we can contribute to
+          the collective effort of protecting our planet.
+        </p>
+      </div>
+
+      <div class="teamPictures-container">
+        <div class="teamPictures-overlay">
+          <img class="teamPictures"
+            src="https://media.discordapp.net/attachments/867313821219160075/1004457148916445194/E2CBA792-AD19-4A7B-8DC2-CEC4E90CE221.jpg">
+          <div class="overlay">
+            <div class="text">
+              Catherine Wang
+            </div>
+          </div>
+        </div>
+        <div class="teamPictures-overlay">
+          <img class="teamPictures"
+            src="https://media.discordapp.net/attachments/867313821219160075/1004457101172670474/D7EE9370-6867-463D-9F9C-0B46C2C53DCC.jpg">
+          <div class="overlay">
+            <div class="text">Anjelina Jasso</div>
+          </div>
+        </div>
+        <div class="teamPictures-overlay">
+          <img class="teamPictures"
+            src="https://media.discordapp.net/attachments/867313821219160075/1004457041357709312/IMG_2370.jpg?width=1260&height=1260">
+          <div class="overlay">
+            <div class="text">Emily Li</div>
+          </div>
+        </div>
+        <div class="teamPictures-overlay">
+          <img class="teamPictures"
+            src="https://media.discordapp.net/attachments/867313821219160075/1004457041038938202/1415D016-AD2A-4509-8D92-92C1065AF979.jpg">
+          <div class="overlay">
+            <div class="text">Ariana Carrillo-Valdez </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Impact">
+    <h1 class="impactTitle"> Impact </h1>
+    <div class="Impact" id="impact">
+      <div id="background">
+        <div id="slideshow"></div>
+      </div>
+    </div>
+    <div class="impactDescription">
+      <p>What really is "fast fashion"? Ultimately, fast fashion is a design, manufacturing, and marketing method
+        focused on rapidly producing high volumes of clothing in an uneconomical way. Fast fashion negatively impacts
+        our Earth in plenty of significant ways. For instance, 2.8 million tons of clothing are sent to landfills in the
+        US <em>
+          <bold>every year</bold>
+        </em> This effects not ony us, but our future children and grandchildren, as well as all the animals living on
+        Earth. Now, there are plenty of animals going extinct due to the drastic changes of our deteriorating Earth,
+        animals like polar bears, monarch butterflies, cheetahs, koalas, and the list keeps going. Global warming is
+        projected to commit over one-third of the Earth's animal and plant species to extinction by 2050 if current
+        greenhouse gas emissions trajectories continue. One of many ways YOU can help prevent this from happening, is by
+        shopping at sustainable clothing brands, rather than fast fashion brands.
+      </p>
+    </div>
+    <div class="container">
+      <a href="https://www.lemonade.com/blog/fast-fashion-destroying-our-planet/">
+        <div class="box">
+          <div class="imgBox">
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/5f5f02dd9b510014eef4fc4f/1611639476403-HUMTDZHC4ABFZF8T2EPO/fast+fashion+exploitation.png">
+          </div>
+          <div class="content">
+            <p>The fashion industry produces 10 percent of humanity’s carbon emissions </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBox">
+            <img
+              src="https://static01.nyt.com/images/2019/10/06/fashion/06XR-FASHION-victoria-beckham-2/merlin_161005491_6b602a16-6963-4985-bf83-d8bf3fa37a87-articleLarge.jpg?quality=75&auto=webp&disable=upscale">
+          </div>
+          <div class="content">
+            <p>It takes about 700 gallons of water to produce one cotton shirt. </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBox">
+            <img
+              src="https://blogs.chapman.edu/wp-content/uploads/sites/23/2020/02/BANGLADESH-e1582749238597-580x413.jpg">
+          </div>
+          <div class="content">
+            <p>The high demands of producing inexpensive clothing are pushing brands to use cheap labor, low-quality
+              fabrics, and provide unsafe working conditions. </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="reveal" id="Our-quiz">
+    <h1 class="quizTitle">Our Quiz</h1>
+    <div class="parent">
+      <div class="quiz">
+        <button class="style"><a href="https://Quiz-Template-Scholars-1.emilyli1101.repl.co">Take Quiz!</a></button>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="styles">
+    <div class="styles" id="styles">
+      <h1 class="stylesTitle"> Styles </h1>
+    </div>
+    <div class="gallery">
+      <div class="gallery-item">
+        <figure>
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/61dcd32b3fb8bb4b5af9b560/2372fa89-d26e-49be-9dc5-ff6f1bb0cb8e/fair-trade-clothing-pact"
+            alt="the classic" />
+          <figcaption>The Classic.</figcaption>
+        </figure>
+        <p>Brand: Pact <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img src="https://pyxis.nymag.com/v1/imgs/b09/b9f/cf3ec1c19421ea01eb5e0e488d091a83fc-MaraHoffmanPic.jpg"
+            alt="the elegant" />
+          <figcaption>The Elegant. </figcaption>
+        </figure>
+        <p>Brand: Savannah Morrow The Label <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/61dcd32b3fb8bb4b5af9b560/938ecc0b-3356-418d-ac59-1a9fc4ffe3f2/fair-trade-clothing-reformationg"
+            alt="the classic" />
+          <figcaption>The Classic.</figcaption>
+        </figure>
+        <p>Brand: Reformation <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/547a3834e4b053a861c4874e/1625074386859-KNVWOUH2DUNPVDMP92EE/Sustainably+Chic+%7C+Sustainable+Fashion+Blog+%7C+Ethical+Dresses+for+the+Minimalist.jpg"
+            alt="The Elegant" />
+          <figcaption>The Elegant</figcaption>
+        </figure>
+        <p> Brand: Spoils of Wear <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpUG1coZVkPN3UDu4rsWIF9zsqkIjK_uSrkQ&usqp=CAU"
+            alt="the artsy" />
+          <figcaption>The Artsy.</figcaption>
+        </figure>
+        <p>Brand: Joshua Samuels <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img
+            src="https://fashionista.com/.image/t_share/MTc1NzI1NjYyMDQzMTIwNjk1/asos-walmart-sustainability-greenwashing.jpg"
+            alt="dog" />
+          <figcaption>The Artsy.</figcaption>
+        </figure>
+        <p> Brand: Asos <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img
+            src="https://cdn.shopify.com/s/files/1/0006/0420/9215/articles/ethical_punk_clothing_1000_1024x.jpg?v=1656488395"
+            alt="dog" />
+          <figcaption>The Punk.</figcaption>
+        </figure>
+        <p> Brand: Skydance <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img src="https://edwin-europe.com/media/wysiwyg/kidill-catwalk-1.jpg" alt="dog" />
+          <figcaption>The Punk.</figcaption>
+        </figure>
+        <p>Brand: KIDILL <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img src="https://cdn.shopify.com/s/files/1/0474/7634/2935/files/Artknit_480x480.jpg?v=1623680609"
+            alt="the preppy" />
+          <figcaption>The Classic.</figcaption>
+        </figure>
+        <p>Brand: Wuuls <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img src="https://eluxemagazine.com/wp-content/uploads/2017/04/810-1.jpg" alt="dog" />
+          <figcaption>The Classic.</figcaption>
+        </figure>
+        <p>Brand: Mango <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img
+            src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612477453-playa3009755994-q4-2-0-1612477445.jpg?crop=1xw:1xh;center,top&resize=768:*"
+            alt="dog" />
+          <figcaption>The Doll.</figcaption>
+        </figure>
+        <p>Brand: Playa Lucila <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/58163c29197aea6c5f166b6f/3ef230aa-9041-4b13-9642-f9abc79d593d/12.+Dynasty+George+-WOC+Sustainable+Fashion+Brands.jpg?format=750w" />
+          <figcaption>The Doll.</figcaption>
+        </figure>
+        <p>Brand: Dynasty George <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img src="https://www.curatedbyjennifer.com/wp-content/uploads/2021/10/3_800x@2x.jpeg.webp" alt="y2k" />
+          <figcaption>The Throwback.</figcaption>
+        </figure>
+        <p>Brand: Local European <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img
+            src="https://imgix.theurbanlist.com/content/article/champion-x-homie.jpg?auto=format,compress&w=520&h=390&fit=crop"
+            alt="streetwear" />
+          <figcaption>The Throwback.</figcaption>
+        </figure>
+        <p>Brand: HoMie <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img
+            src="https://media.glamour.com/photos/5fe0d16fa58cf54dfe239bb1/master/w_2580%2Cc_limit/PDP_Paloma_Plum2_1200x.jpg"
+            alt="athlete" />
+          <figcaption>The Athlete.</figcaption>
+        </figure>
+        <p>Brand: Girlfriend Collective <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img
+            src="https://cdna.lystit.com/1040/1300/n/photos/asos/84d099ce/ghost-Chalk-white-Willow-Wedding-Dress-With-Flutter-Train-white.jpeg"
+            alt="elegant" />
+          <figcaption>The Elegant.</figcaption>
+        </figure>
+        <p>Brand: LYST <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img
+            src="https://media.glamour.com/photos/5fe0f7dbf6828ae49b095ec4/master/w_2580%2Cc_limit/FCC_SP6_WHT_1_b851dfeb-6d24-4ccb-84b5-e1e4441a517e_1080x.jpg"
+            alt="elegant" />
+          <figcaption>The Elegant.</figcaption>
+        </figure>
+        <p>Brand: Groceries Apparel <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a> </p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img src="http://t1.gstatic.com/images?q=tbn:ANd9GcQAenRc6pPoDeIvRN3LzxMnvu5I5XgctfkdZIccDFv0co7Gaj3E"
+            alt="elegant" />
+          <figcaption>The Elegant.</figcaption>
+        </figure>
+        <p>Brand: Anthropologie <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/58163c29197aea6c5f166b6f/dc1ce61b-61d7-41a8-9783-4d55039f231f/25+WOC+Sustainable+Fashion+Brands++%282%29.jpg?format=1500w" />
+          <figcaption>The Artsy.</figcaption>
+        </figure>
+        <p>Brand: ROOPA PEMMARAJU <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+      <div class="gallery-item">
+        <figure>
+          <img src="http://t2.gstatic.com/images?q=tbn:ANd9GcSZWHsqXDf2iiUJ64xIibFiy7KqgKlqWNCVLYg7r7fJGj6M2AER" />
+          <figcaption>The Artsy.</figcaption>
+        </figure>
+        <p>Brand: Minga London US <a href="#" class="like-button">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" />
+            </svg>
+          </a></p>
+      </div>
+    </div>
+    <form>
+      <label> Email:
+        <input class="email-input" type="email">
+      </label>
+      <label>
+        <button id="submit">Submit!</button>
+    </form>
+  </section>
+  </nav>
+
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
